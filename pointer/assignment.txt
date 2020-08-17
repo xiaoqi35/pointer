@@ -1,0 +1,25 @@
+/* 
+#include"stdio.h"
+void f(int** x, int** y, int* q){
+	int* p = NULL;
+	p = *y;
+	*x = q;
+	a=*y;
+}
+int main(){
+	int a = 1,b = 2,c = 3;
+	int* r = &a; 
+	int** y = &r;
+	int* q = &b;
+	int* s = &c; 
+	int** x = &s;
+	printf("**x: %d\n", **x);
+	printf("**y: %d\n", **y);
+	f(x, y, q);
+	printf("**x: %d\n", **x);
+	printf("**y: %d\n", **y);
+
+	return 0;
+}
+*/
+
